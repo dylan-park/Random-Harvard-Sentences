@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Roboto;
+}
+
+#instructions {
+	text-align: center;
+	position: static;
+}
+
+#sentence_div {
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#sentence {
+	font-size: 4.2vw;
+}
