@@ -1,12 +1,22 @@
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Regular.ttf);
+}
+
 body {
 	background-color: black;
 	color: white;
 	font-family: Roboto;
 }
 
-#instructions {
+.instructions {
 	text-align: center;
 	position: static;
+}
+
+
+#mobile {
+	display: none;
 }
 
 #sentence_div {
@@ -19,4 +29,14 @@ body {
 
 #sentence {
 	font-size: 4.2vw;
+}
+
+@media only screen and (max-device-width: 600px) {
+	#pc {
+		display: none;
+	}
+
+	#mobile {
+		display: inline;
+	}
 }

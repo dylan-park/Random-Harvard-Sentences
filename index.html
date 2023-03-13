@@ -1,13 +1,15 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<script src="sentences.js"></script>
 		<title>Random Harvard Sentences</title>
 	</head>
 	<body onload="generate()">
-		<div id="instructions">
-			<h3>Press Space to generate another</h3>
+		<div id="pc" class="instructions">
+			<h3>Press Space or Click to generate another</h3>
+		</div>
+		<div id="mobile"  class="instructions">
+			<h3>Tap to generate another</h3>
 		</div>
 		<div id="sentence_div">
 			<h1 id="sentence"></h1>

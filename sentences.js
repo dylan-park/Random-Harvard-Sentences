@@ -5,11 +5,17 @@ function generate() {
 	document.getElementById('sentence').innerHTML = sentences[randomSentence];;
 }
 
-document.addEventListener('keyup', function(e) {
+document.addEventListener('keyup', function (e) {
 	if (e.key == " " ||
 		e.code == "Space" ||
 		e.keyCode == 32
 	) {
-		generate()
+		generate();
 	}
 });
+
+document.onclick = function (event) {
+	if (event === undefined) event = window.event;
+	var target = 'target' in event ? event.target : event.srcElement;
+	generate();
+};
