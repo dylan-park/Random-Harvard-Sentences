@@ -29,6 +29,7 @@ body {
 
 #sentence {
 	font-size: 4.2vw;
+	user-select: none;
 }
 
 @media only screen and (max-device-width: 600px) {
