@@ -40,4 +40,8 @@ body {
 	#mobile {
 		display: inline;
 	}
+	
+	#sentence {
+		font-size: 10vw;
+	}
 }
